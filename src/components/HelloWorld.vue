@@ -1,12 +1,12 @@
 <template>
   <div class="hello">
-    <el-row>
-      <el-button
+    <el-row class="justify-content-center align-items-center">
+      <!-- <el-button
         type="primary"
         icon="fas fa-edit"
         @click="handleClickLogin"
         :disabled="!isInit"
-      >get authCode</el-button>
+      >get authCode</el-button> -->
       <el-button
         type="primary"
         icon="fas fa-edit"
@@ -21,22 +21,22 @@
         v-if="isSignIn"
         :disabled="!isInit"
       >sign out</el-button>
-      <el-button
+      <!-- <el-button
         type="primary"
         icon="fas fa-edit"
         @click="handleClickDisconnect"
         :disabled="!isInit"
-      >disconnect</el-button>
+      >disconnect</el-button> -->
       <i class="fas fa-edit"></i>
-      <p>isInit: {{isInit}}</p>
+      <!-- <p>isInit: {{isInit}}</p> -->
       <p>isSignIn: {{isSignIn}}</p>
 
-      <el-button
+      <!-- <el-button
         type="primary"
         icon="fas fa-edit"
         @click="handleClickUpdateScope"
         :disabled="!isInit"
-      >update scope</el-button>
+      >update scope</el-button> -->
     </el-row>
   </div>
 </template>
